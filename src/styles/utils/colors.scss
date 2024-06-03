@@ -1,0 +1,23 @@
+:root {
+  /* Light theme */
+  --background-color-light: #ffffff;
+  --text-color-light: #333333;
+  --link-color-light: #6777ef;
+  --accent-color-light: #28a745;
+  --grey-light: #f1f1f1;
+  --table-light: #000;
+  --shadow-light: 0px 0px 9px -2px rgba(227, 227, 227, 1);
+  --card-light: #ffffff;
+  --card-border-light: #f1f1f1;
+
+  /* Dark theme */
+  --background-color-dark: #131314;
+  --text-color-dark: #e3e3e3;
+  --link-color-dark: #6777ef;
+  --accent-color-dark: #28a745;
+  --grey-dark: #eae5e51f;
+  --table-dark: #96a2b4;
+  --shadow-dark: 0 0 10px #0003;
+  --card-light: #333537;
+  --card-border-dark: #363232;
+}

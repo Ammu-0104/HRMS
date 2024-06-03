@@ -1,0 +1,17 @@
+.Leaveapply {
+  .p-tabview {
+    .p-tabview-nav {
+      li {
+        &.p-highlight {
+          .p-tabview-nav-link {
+            background: #ffffff;
+            color: var(--link-color);
+          }
+        }
+        &.p-tabview-ink-bar {
+          background-color: var(--link-color);
+        }
+      }
+    }
+  }
+}

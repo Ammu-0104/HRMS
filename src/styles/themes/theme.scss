@@ -1,0 +1,23 @@
+/* Define styles for light theme */
+.light-theme {
+  --background-color: var(--background-color-light);
+  --text-color: var(--text-color-light);
+  --link-color: var(--link-color-light);
+  --accent-color: var(--accent-color-light);
+  --line-gray: var(--grey-light);
+  --text-table: var(--table-light);
+  --card-border: var(--card-border-light);
+  --card-bg: var(--card-light);
+}
+
+/* Define styles for dark theme */
+.dark-theme {
+  --background-color: var(--background-color-dark);
+  --text-color: var(--text-color-dark);
+  --link-color: var(--link-color-dark);
+  --accent-color: var(--accent-color-dark);
+  --line-gray: var(--grey-dark);
+  --text-table: var(--table-dark);
+  --card-border: var(--card-border-dark);
+  --card-bg: var(--card-dark);
+}

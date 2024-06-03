@@ -1,0 +1,17 @@
+.history {
+  .card {
+    padding: 0px;
+    .line {
+      margin: 15px;
+      border-bottom: 2px solid var(--line-gray);
+      h5 {
+        color: var(--text-color);
+      }
+      p {
+        color: rgb(136 136 136 / 76%);
+        // font-size: 12px;
+        font-weight: 500;
+      }
+    }
+  }
+}

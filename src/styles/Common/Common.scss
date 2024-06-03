@@ -1,0 +1,127 @@
+@import "../themes/theme.scss";
+
+.p-frozen-column {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.p-datatable {
+  .p-datatable-thead {
+    tr {
+      th {
+        background-color: var(--background-color);
+        color: #fff;
+        border-bottom: 1px solid var(--line-gray);
+        border-top: 1px solid var(--line-gray);
+        background: var(--link-color);
+        // color: var(--text-color);
+        font-weight: 500;
+        &:first-child {
+          border-top-left-radius: 14px;
+          border-bottom-left-radius: 14px;
+        }
+        &:last-child {
+          border-top-right-radius: 14px;
+          border-bottom-right-radius: 14px;
+        }
+      }
+    }
+  }
+  .p-datatable-tbody {
+    tr {
+      td {
+        border: none;
+        background-color: var(--background-color);
+        color: var(--text-table);
+        border-bottom: 1px solid var(--line-gray);
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.card {
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: var(--background-color);
+  box-shadow: rgb(226 226 226 / 30%) 0px 2px 8px 0px;
+}
+
+.p-tabview {
+  .p-tabview-panels {
+    background: var(--background-color);
+  }
+}
+.p-inputtext {
+  color: var(--text-color);
+  background: var(--background-color);
+  width: 100%;
+}
+.p-dropdown {
+  color: var(--text-color);
+  background: var(--background-color);
+  .p-dropdown-panel {
+    color: var(--text-color);
+    background: var(--background-color);
+    .p-dropdown-items {
+      color: var(--text-color);
+      background: var(--background-color);
+      .p-dropdown-item {
+        color: var(--text-color);
+        background: var(--background-color);
+      }
+    }
+  }
+  .p-dropdown-trigger {
+    color: var(--text-color);
+    background: var(--background-color);
+  }
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+  color: var(--text-color);
+  background: var(--background-color);
+}
+
+// .emp_box1 {
+//   background-color: var(--background-color);
+//   color: var(--text-color);
+// }
+// .att_sheet {
+//   background-color: var(--background-color);
+//   color: var(--text-color);
+// }
+// .p-datatable .p-column-header-content{
+//   justify-content: space-evenly;
+
+// }
+.dashboard {
+  .card {
+    padding: 25px;
+    border-radius: 20px;
+    .icon {
+      margin: 0;
+      padding: 0;
+      border-radius: 15px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      font-size: 25px;
+    }
+    .title {
+      h3 {
+        font-size: 1rem;
+        font-weight: 500;
+        color: rgb(108, 115, 127);
+      }
+      p {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
+    .text {
+      font-weight: 600;
+      color: #575757;
+    }
+  }
+}

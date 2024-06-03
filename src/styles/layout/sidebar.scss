@@ -1,0 +1,32 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  padding: 15px;
+  background: var(--link-color);
+  // background-color:  #6777ef;
+  box-shadow: var(--shadow-color);
+  .Attendence,
+  .Leave {
+    h3 {
+      color: whitesmoke;
+    }
+    ul {
+      li {
+        color: black;
+        padding: 10px;
+        // font-weight: 500;
+        font-size: 14px;
+        a {
+          // font-weight: 600;
+        }
+
+        &:hover {
+          background-color: white;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

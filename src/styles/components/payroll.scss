@@ -1,0 +1,89 @@
+.payslip {
+  // .table {
+  //   tbody {
+  //     tr {
+  //       td {
+  //         font-size: 13px;
+  //         font-weight: 400;
+  //         text-transform: lowercase;
+  //         .border {
+  //           border-left: 0;
+  //           border-top: 0px;
+  //         }
+  //         &.top {
+  //           border-top: 0;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+}
+.payslipmodal {
+  .p-dialog-header {
+    display: none;
+  }
+  .p-dialog-content {
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .tables {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    border: none;
+    width: 100%;
+    border-spacing: 0;
+    thead {
+      tr {
+        border: none;
+        th {
+          font-size: 14px;
+          border: none;
+          font-weight: 600;
+          background-color: rgb(243, 243, 243);
+          text-align: left;
+          padding: 5px;
+          &.t-r {
+            border-top-right-radius: 5px;
+          }
+          &.t-l {
+            border-top-left-radius: 5px;
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          font-size: 0.8rem;
+          padding: 5px;
+          font-weight: 400;
+          text-transform: lowercase;
+          border: none;
+          &.b-r {
+            border-bottom-right-radius: 5px;
+            background-color: rgb(243, 243, 243);
+            font-weight: 600;
+          }
+          &.b-l {
+            border-bottom-left-radius: 5px;
+            background-color: rgb(243, 243, 243);
+            text-transform: capitalize;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+  .table {
+    width: 100%;
+    border-spacing: 0;
+    tr {
+      td {
+        border: 1px solid rgb(234, 234, 234);
+        border-collapse: collapse;
+        padding: 5px;
+        font-size: 0.8rem;
+        font-weight: 500;
+      }
+    }
+  }
+}

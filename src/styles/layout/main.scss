@@ -1,0 +1,26 @@
+// @import "../themes//theme.scss";
+
+.content {
+  padding: 2rem 4rem 0;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--background-color);
+  overflow-y: scroll;
+}
+
+.container {
+  background-color: var(--background-color);
+  margin-left: 15rem;
+  // width: 1220px;
+
+  margin: auto;
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--text-color);
+  }
+}

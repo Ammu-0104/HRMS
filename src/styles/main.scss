@@ -1,0 +1,25 @@
+@import "./utils/colors.scss";
+
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
+@import "~primeflex/primeflex.css";
+
+@import "utils/base.scss";
+@import "utils/typography.scss";
+@import "utils/variables.scss";
+@import "utils/scrollbar.scss";
+@import "utils/mixins.scss";
+
+@import "themes/theme";
+
+@import "layout/sidebar.scss";
+@import "layout/main.scss";
+
+@import "Common/Common.scss";
+
+@import "components/Leaveapply.scss";
+@import "components/ApplyPending.scss";
+@import "components/Applyhistory.scss";
+@import "components/EmpAttendence.scss";
+@import "components/Leavebalance.scss";
+@import "components/payroll.scss";

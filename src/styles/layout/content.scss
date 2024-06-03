@@ -1,0 +1,13 @@
+// @import "../themes//theme.scss";
+
+.content {
+  padding: 6rem 4rem 0;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--background-color);
+}
+
+.custom-container {
+  color: var(--text-color);
+  box-shadow: $box-shadow-light;
+}
